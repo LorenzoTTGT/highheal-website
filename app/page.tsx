@@ -5,8 +5,8 @@ import { releases } from '@/data/releases';
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#1a1a1a]">
-      {/* Header */}
-      <header className="bg-black border-b border-gray-800">
+      {/* Header - Sticky */}
+      <header className="sticky top-0 z-50 bg-black border-b border-gray-800">
         <div className="container mx-auto px-4 py-6">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">HIGH HEAL</h1>
           <p className="text-gray-400 text-sm md:text-base">gathering of soulmates to heal through music</p>
