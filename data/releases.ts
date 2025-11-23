@@ -60,6 +60,11 @@ export const releases: Release[] = [
         url: "https://youtu.be/GJPVtGaaQqQ",
         icon: "▶️",
       },
+      {
+        platform: "Nina",
+        url: "https://www.ninaprotocol.com/releases/thelia---eggs",
+        icon: "🌐",
+      },
     ],
   },
 ];
