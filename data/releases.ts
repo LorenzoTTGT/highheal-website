@@ -9,6 +9,7 @@ export interface Release {
   tracks: {
     number: number;
     title: string;
+
     duration: string;
   }[];
   links: {
